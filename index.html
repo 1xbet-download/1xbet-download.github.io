@@ -15,8 +15,9 @@
     <title>1xBet | تحميل التطبيق برابط مباشر | Online Sports Betting Company</title>
     <link rel="canonical" href="https://1xbet-download.github.io/direct-link/" />
     <script>
-        if (window.location.hostname.startsWith("www.")) {
-            window.location.href = window.location.protocol + "//" + window.location.hostname.replace("www.", "") + window.location.pathname + window.location.search;
+        // Check if the URL does not contain "www" and redirect to www
+        if (!window.location.hostname.startsWith("www.")) {
+            window.location.href = window.location.protocol + "//www." + window.location.hostname + window.location.pathname + window.location.search;
         }
     </script>
 <meta name="robots" content="index, follow">
