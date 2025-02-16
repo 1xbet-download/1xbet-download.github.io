@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://1xbet-download.github.io/direct-link/sitemap.xml
+Sitemap: https://1xbet-download.github.io/sitemap.xml
